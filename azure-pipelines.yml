@@ -18,8 +18,6 @@ steps:
     echo first azure project
   displayName: 'Run a multi-line script'
 
-- script: hello.sh
-  displayName: 'Run script'
-- task: BatchScript@1
+- script: hello.- task: Bash@3
   inputs:
-    filename: 'hello.sh'
+    filePath: 'hello.sh'

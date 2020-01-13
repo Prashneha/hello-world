@@ -17,7 +17,6 @@ steps:
     echo Hello MSCI
     echo first azure project
   displayName: 'Run a multi-line script'
-
-- script: hello.- task: Bash@3
+- task: Bash@3
   inputs:
     filePath: 'hello.sh'
